@@ -19,3 +19,17 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "Es hoy";
   }
 }, 1000);
+
+var myAudio = document.getElementById("myAudio");
+var isPlaying = false;
+
+function togglePlay() {
+  isPlaying ? myAudio.pause() : myAudio.play();
+};
+
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
+myAudio.onpause = function() {
+  isPlaying = false;
+};
