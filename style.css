@@ -1,3 +1,69 @@
+:root{
+    --permanent-geranium-lake: #dc3731ff;
+    --pistachio: #98d161ff;
+    --white: #ffffffff;
+    --corn: #f3e84fff;
+    --hot-pink: #f075afff;
+    --uranian-blue: #9dddf9ff;
+}
+
+#portada{
+    background-color: var(--uranian-blue);
+}
+
+#direccion{
+    background-color: var(--corn);
+}
+
+#fiesta{
+    background-color: var(--hot-pink);
+}
+
+#galeria{
+    background-color: var(--pistachio);
+}
+
+#asistencia{
+    background-color: var(--uranian-blue);
+}
+
+#pedirRegalo{
+    display: none;
+}
+
+#cuenta{
+    display: flex;
+}
+
+.section{
+    border: 2px solid ;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    text-align: center;
+}
+
+#pedirRegalo{
+    align-items: center;
+    justify-content: center;
+}
+
+#audioDiv{
+    text-align: start;
+}
+
+#demo{
+    font-size: 35px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -21,28 +87,4 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-}
-
-#pedirRegalo{
-    display: none;
-}
-
-.icono{
-    background-color: aqua;
-}
-
-#cuenta{
-    display: flex;
-}
-
-.section{
-    border: 2px solid ;
-    height: 100vh;
-}
-
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
