@@ -37,16 +37,14 @@
         <div class="fiesta">
             <h3>Regalos</h3>
             <div class="icono">
-                <img src="gift.png" alt="" width="100">
+                <img src="gift.png" alt="" width="100" onclick="regalar()" id="regalo">
+                <div id="pedirRegalo">
+                    <p>CVU: <span id="cvu">00000000658364697193769</span></p>
+                    <button onclick="copyText()">Copiar</button>
+                    <button id="remove" onclick="remove()">x</button>
+                </div>
             </div>
             <p class="descripcion">El regalo es obligatorio</p>
-        </div>
-        <div class="fiesta">
-            <h3>Sugerencia de canciones</h3>
-            <div class="icono">
-                <img src="musical-note.png" alt="" width="100">
-            </div>
-            <p class="descripcion">Sugeri una cancion para la fiesta</p>
         </div>
     </div>
     <div class="section" id="galeria">

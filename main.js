@@ -33,3 +33,19 @@ myAudio.onplaying = function() {
 myAudio.onpause = function() {
   isPlaying = false;
 };
+
+function regalar() {
+  let regalo = document.getElementById('regalo');
+  let pedirRegalo = document.getElementById('pedirRegalo');
+  pedirRegalo.style.display = 'flex';
+}
+
+function remove() {
+  pedirRegalo.style.display = 'none';
+}
+
+function copyText() {
+  let cvuNum =document.getElementById('cvu')
+  navigator.clipboard.writeText
+      (cvuNum.innerHTML);
+}
