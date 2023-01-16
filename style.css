@@ -1,152 +1,159 @@
-:root{
-    --permanent-geranium-lake: #dc3731ff;
-    --pistachio: #98d161ff;
-    --white: #ffffffff;
-    --corn: #f3e84fff;
-    --hot-pink: #f075afff;
-    --uranian-blue: #9dddf9ff;
+:root {
+  --permanent-geranium-lake: #dc3731ff;
+  --pistachio: #98d161ff;
+  --white: #ffffffff;
+  --corn: #f3e84fff;
+  --hot-pink: #f075afff;
+  --uranian-blue: #9dddf9ff;
 }
 
-#portada{
-    background-color: var(--uranian-blue);
+#portada {
+  background-color: var(--uranian-blue);
 }
 
-#direccion{
-    background-color: var(--corn);
+#portadaDiv {
+  margin-top: 30px;
 }
 
-#fiesta{
-    background-color: var(--hot-pink);
+#foto {
+  border-radius: 20%;
 }
 
-#galeria{
-    background-color: var(--pistachio);
-    height: auto;
-    padding: 30px;
+#direccion {
+  background-color: var(--corn);
 }
 
-#photos{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 20px;
+#fiesta {
+  background-color: var(--hot-pink);
 }
 
-#asistencia{
-    background-color: var(--uranian-blue);
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+#galeria {
+  background-color: var(--pistachio);
+  height: auto;
+  padding: 30px;
+}
+
+#photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imagen {
+  border-radius: 20%;
+}
+
+#asistencia {
+  background-color: var(--uranian-blue);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 #asistencia button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
-    gap: 10px;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  gap: 10px;
+  padding: 10px;
 }
 
-#confirmA{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+#confirmA {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
-#pedirRegalo{
-    display: none;
+#pedirRegalo {
+  display: none;
 }
 
-#cuenta{
-    display: flex;
+#cuenta {
+  display: flex;
 }
 
-.section{
-    border: 2px solid ;
-    height: 100vh;
+.section {
+  border: 2px solid;
+  height: 100vh;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-*{
-    text-align: center;
+* {
+  text-align: center;
 }
 
-#pedirRegalo{
-    align-items: center;
-    justify-content: center;
-    background-color: whitesmoke;
-    margin: 10px 0 10px 0;
-    gap: 10px;
+#pedirRegalo {
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 10px 0 10px 0;
+  gap: 10px;
 }
 
-#copy:active{
-    filter: opacity(50%);
+#copy:active {
+  filter: opacity(50%);
 }
 
-#audioDiv{
-    text-align: start;
+#audioDiv {
+  text-align: start;
 }
 
-#demo{
-    font-size: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#demo {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.tiempos{
-    font-size: 50px;
-    margin: 0 10px 0 10px ;
+.tiempos {
+  font-size: 50px;
+  margin: 0 10px 0 10px;
 }
 
-.tiempoT{
-    font-size: 20px;
+.tiempoT {
+  font-size: 20px;
 }
 
-#direccion p{
-    font-size: 25px;
-    line-break: auto;
-    padding: 30px;
+#direccion p {
+  font-size: 25px;
+  line-break: auto;
+  padding: 30px;
 }
 
-.fiesta{
-    margin-top: 10vh;
+.fiesta {
+  margin-top: 10vh;
 }
 
-#regalo:active{
+#regalo:active {
   filter: opacity(50%);
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
 }
