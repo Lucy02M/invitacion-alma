@@ -62,6 +62,18 @@ body{
 
 #demo{
     font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiempos{
+    font-size: 50px;
+    margin: 0 10px 0 10px ;
+}
+
+.tiempoT{
+    font-size: 20px;
 }
 
 /* Extra small devices (phones, 600px and down) */
