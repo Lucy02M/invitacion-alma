@@ -25,6 +25,13 @@ var isPlaying = false;
 
 function togglePlay() {
   isPlaying ? myAudio.pause() : myAudio.play();
+  let imgAudio = document.getElementById('audioImg');
+  let mySrc = imgAudio.getAttribute('src');
+  if (mySrc === "on.png") {
+    imgAudio.setAttribute('src', "off.png")
+  } else {
+    imgAudio.setAttribute('src', "on.png")
+  }
 };
 
 myAudio.onplaying = function() {
