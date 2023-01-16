@@ -21,10 +21,39 @@
 
 #galeria{
     background-color: var(--pistachio);
+    height: auto;
+    padding: 30px;
+}
+
+#photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
 }
 
 #asistencia{
     background-color: var(--uranian-blue);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#asistencia button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 10px;
+    padding: 10px;
+}
+
+#confirmA{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 #pedirRegalo{
@@ -54,6 +83,13 @@ body{
 #pedirRegalo{
     align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
+    margin: 10px 0 10px 0;
+    gap: 10px;
+}
+
+#copy:active{
+    filter: opacity(50%);
 }
 
 #audioDiv{
@@ -74,6 +110,20 @@ body{
 
 .tiempoT{
     font-size: 20px;
+}
+
+#direccion p{
+    font-size: 25px;
+    line-break: auto;
+    padding: 30px;
+}
+
+.fiesta{
+    margin-top: 10vh;
+}
+
+#regalo:active{
+  filter: opacity(50%);
 }
 
 /* Extra small devices (phones, 600px and down) */
