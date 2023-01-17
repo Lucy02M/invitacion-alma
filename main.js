@@ -35,12 +35,12 @@ var isPlaying = false;
 
 function togglePlay() {
   isPlaying ? myAudio.pause() : myAudio.play();
-  let imgAudio = document.getElementById("audioImg");
+  let imgAudio = document.getElementById("audioImg");;
   let mySrc = imgAudio.getAttribute("src");
-  if (mySrc === "on.png") {
-    imgAudio.setAttribute("src", "off.png");
+  if (mySrc === "volume-up.png") {
+    imgAudio.setAttribute("src", "silent.png");
   } else {
-    imgAudio.setAttribute("src", "on.png");
+    imgAudio.setAttribute("src", "volume-up.png");
   }
 }
 
