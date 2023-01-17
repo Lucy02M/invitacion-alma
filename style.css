@@ -21,6 +21,9 @@
   border-radius: 20%;
   box-shadow: 0px 0px 0px 14px #FFFFFF;
   object-fit: cover;
+  filter: contrast(40%);
+  filter: brightness(130%);
+  filter: saturate(1.5)
 }
 
 #portada h1{
@@ -53,6 +56,19 @@
   border-radius: 50%;
   border: none;
   box-shadow: -9px 10px 11px -8px rgba(26, 22, 22, 0.81);
+  animation: buttonColor 2s linear 0s 3 normal;
+}
+
+#audioBtn:active{
+  box-shadow: -9px 10px 11px -8px rgba(81, 220, 255, 0.81);
+  background-color: #48c5ffe5;
+}
+
+@keyframes buttonColor {
+  0% {box-shadow: -9px 10px 11px -8px rgba(26, 22, 22, 0.81);}
+  50% {box-shadow: -9px 10px 11px -8px rgba(81, 220, 255, 0.81);
+  background-color: #48c5ffe5;}
+  100% {box-shadow: -9px 10px 11px -8px rgba(26, 22, 22, 0.81)}
 }
 
 #audioBtn:active{
@@ -63,15 +79,25 @@
   background-color: var(--corn);
 }
 
+#direccion p {
+  color:var(--permanent-geranium-lake);
+}
+
 #fiesta {
   background-color: var(--hot-pink);
+}
+
+#fiesta * {
+  color: var(--corn);
 }
 
 #galeria {
   background-color: var(--pistachio);
   height: auto;
   padding: 30px;
+  color: var(--hot-pink);
 }
+
 
 #photos {
   display: flex;
@@ -82,6 +108,11 @@
 
 .imagen {
   border-radius: 20%;
+  object-fit: cover;
+  filter: contrast(40%);
+  filter: brightness(130%);
+  filter: saturate(1.5);
+  border: 5px dotted var(--corn);
 }
 
 #asistencia {
@@ -89,10 +120,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px;
+}
+
+#whiteBack{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  background-color: #FFFFFF;
+  height: 90vh;
+  border-radius: 20px;
+  border: 10px dotted var(--hot-pink);
+  padding: 10px;
+  color: var(--uranian-blue);
 }
 
 #asistencia button {
@@ -102,11 +142,16 @@
   margin: 30px;
   gap: 10px;
   padding: 10px;
+  background-color:var(--pistachio);
+  border: none;
+  border-radius: 10px;
 }
+
+
 
 #confirmA {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
 }
 
@@ -122,6 +167,25 @@
   height: 100vh;
   margin: 0;
   padding: 10px 0;
+  border-bottom: 15px dashed white;
+}
+
+.tenor-gif-embed{
+  transform: scale(0.4);
+  border-radius: 50%;
+  position: absolute;
+}
+
+#kitty{
+  top: -75vh;
+}
+
+#melody{
+  top: -85vh;
+}
+
+#mensaje{
+  margin-top: 20vh;
 }
 
 body {
