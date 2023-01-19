@@ -19,37 +19,41 @@
 
 #foto {
   border-radius: 20%;
-  box-shadow: 0px 0px 0px 14px #FFFFFF;
+  box-shadow: 0px 0px 0px 14px #ffffff;
   object-fit: cover;
   filter: contrast(40%);
   filter: brightness(130%);
-  filter: saturate(1.5)
+  filter: saturate(1.5);
 }
 
-#portada h1{
+#portada h1 {
   color: var(--permanent-geranium-lake);
   font-size: 40px;
-  text-shadow: 5px 5px 0 #ffffff, 5px -5px 0 #ffffff, -5px 5px 0 #ffffff, -5px -5px 0 #ffffff, 5px 0px 0 #ffffff, 0px 5px 0 #ffffff, -5px 0px 0 #ffffff, 0px -5px 0 #ffffff;
+  text-shadow: 5px 5px 0 #ffffff, 5px -5px 0 #ffffff, -5px 5px 0 #ffffff,
+    -5px -5px 0 #ffffff, 5px 0px 0 #ffffff, 0px 5px 0 #ffffff,
+    -5px 0px 0 #ffffff, 0px -5px 0 #ffffff;
   font-weight: 500;
 }
 
-#portada h2{
-  text-shadow: 2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, -2px -2px 0 #ffffff, 2px 0px 0 #ffffff, 0px 2px 0 #ffffff, -2px 0px 0 #ffffff, 0px -2px 0 #ffffff;
+#portada h2 {
+  text-shadow: 2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff,
+    -2px -2px 0 #ffffff, 2px 0px 0 #ffffff, 0px 2px 0 #ffffff,
+    -2px 0px 0 #ffffff, 0px -2px 0 #ffffff;
   font-weight: 500;
-  color:#17b6ff;
+  color: #17b6ff;
 }
 
-#demo{
+#demo {
   background-color: #17b6ff;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 0px 0px 0px 10px #FFFFFF;
+  box-shadow: 0px 0px 0px 10px #ffffff;
   transform: scale(0.9);
 }
 
-#audioBtn{
+#audioBtn {
   background-color: var(--white);
   margin: 0px 0 0 5px;
   padding: 10px;
@@ -59,19 +63,25 @@
   animation: buttonColor 2s linear 0s 3 normal;
 }
 
-#audioBtn:active{
+#audioBtn:active {
   box-shadow: -9px 10px 11px -8px rgba(81, 220, 255, 0.81);
   background-color: #48c5ffe5;
 }
 
 @keyframes buttonColor {
-  0% {box-shadow: -9px 10px 11px -8px rgba(26, 22, 22, 0.81);}
-  50% {box-shadow: -9px 10px 11px -8px rgba(81, 220, 255, 0.81);
-  background-color: #48c5ffe5;}
-  100% {box-shadow: -9px 10px 11px -8px rgba(26, 22, 22, 0.81)}
+  0% {
+    box-shadow: -9px 10px 11px -8px rgba(26, 22, 22, 0.81);
+  }
+  50% {
+    box-shadow: -9px 10px 11px -8px rgba(81, 220, 255, 0.81);
+    background-color: #48c5ffe5;
+  }
+  100% {
+    box-shadow: -9px 10px 11px -8px rgba(26, 22, 22, 0.81);
+  }
 }
 
-#audioBtn:active{
+#audioBtn:active {
   transform: scale(0.8);
 }
 
@@ -80,32 +90,34 @@
 }
 
 #direccion p {
-  color:var(--permanent-geranium-lake);
+  color: var(--permanent-geranium-lake);
 }
 
 #fiesta {
   background-color: var(--hot-pink);
 }
 
-#fiesta *{
+#fiesta * {
   font-weight: 100;
   color: var(--hot-pink);
 }
 
-.fiesta{
-  background-color: white;
-  border: 10px dotted var(--corn);
+.fiesta {
+  background-color: rgba(255, 255, 255, 0.747);
+  padding: 10px;
+  border-radius: 20%;
+  margin-top: 5vh;
 }
 
-.fiesta p{
+.fiesta p {
   color: var(--pistachio) !important;
 }
 
-.fiesta h3{
+.fiesta h3 {
   font-size: 25px;
 }
 
-#remove{
+#remove {
   border: none;
   background-color: var(--permanent-geranium-lake);
   color: white !important;
@@ -121,6 +133,10 @@
   color: var(--hot-pink);
 }
 
+#galeria *,
+#asistencia * {
+  font-weight: 100;
+}
 
 #photos {
   display: flex;
@@ -145,12 +161,12 @@
   padding: 30px;
 }
 
-#whiteBack{
+#whiteBack {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 90vh;
   border-radius: 20px;
   border: 10px dotted var(--hot-pink);
@@ -165,12 +181,10 @@
   margin: 30px;
   gap: 10px;
   padding: 10px;
-  background-color:var(--pistachio);
+  background-color: var(--pistachio);
   border: none;
   border-radius: 10px;
 }
-
-
 
 #confirmA {
   text-decoration: none;
@@ -193,21 +207,21 @@
   border-bottom: 15px dashed white;
 }
 
-.tenor-gif-embed{
+.tenor-gif-embed {
   transform: scale(0.4);
   border-radius: 50%;
   position: absolute;
 }
 
-#kitty{
+#kitty {
   top: -75vh;
 }
 
-#melody{
+#melody {
   top: -85vh;
 }
 
-#mensaje{
+#mensaje {
   margin-top: 20vh;
 }
 
@@ -220,7 +234,7 @@ body {
 
 * {
   text-align: center;
-  font-family: 'Titan One', cursive;
+  font-family: "Titan One", cursive;
 }
 
 #pedirRegalo {
@@ -259,10 +273,6 @@ body {
   font-size: 25px;
   line-break: auto;
   padding: 30px;
-}
-
-.fiesta {
-  margin-top: 10vh;
 }
 
 #regalo:active {

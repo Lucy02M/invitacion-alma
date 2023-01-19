@@ -35,7 +35,7 @@ var isPlaying = false;
 
 function togglePlay() {
   isPlaying ? myAudio.pause() : myAudio.play();
-  let imgAudio = document.getElementById("audioImg");;
+  let imgAudio = document.getElementById("audioImg");
   let mySrc = imgAudio.getAttribute("src");
   if (mySrc === "volume-up.png") {
     imgAudio.setAttribute("src", "silent.png");
