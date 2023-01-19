@@ -235,7 +235,7 @@
   background-color: rgba(255, 255, 255, 0.747);
   padding: 10px;
   border-radius: 20%;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 
 .fiesta p {
@@ -324,6 +324,7 @@
 
 #pedirRegalo {
   display: none;
+  border-radius: 10px;
 }
 
 #cuenta {
@@ -344,11 +345,11 @@
 }
 
 #kitty {
-  top: -75vh;
+  top:-48vh;
 }
 
 #melody {
-  top: -85vh;
+ top:-48vh;
 }
 
 #mensaje {
