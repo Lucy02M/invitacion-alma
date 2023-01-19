@@ -7,6 +7,89 @@
   --uranian-blue: #9dddf9ff;
 }
 
+#hellocharac{
+  position: absolute;
+  width: 120px;
+  z-index: 1;
+  right: 5px;
+  animation: character 2s ease-in-out 0s infinite normal forwards;
+}
+
+#cinacharac{
+  position: absolute;
+  width: 140px;
+  z-index: 1;
+  top: 185vh;
+  left: 33vw;
+  animation: character 2s ease-in-out 0s infinite normal forwards;
+}
+
+#tuxcharac{
+  position: absolute;
+  width: 120px;
+  z-index: 1;
+  top: 350vh;
+  left: 70vw;
+  animation: character 2s ease-in-out 0s infinite normal forwards;
+}
+
+#melodycharac{
+  position: absolute;
+  width: 140px;
+  z-index: 1;
+  top: 390vh;
+  left: 2vw;
+  animation: character 2s ease-in-out 0s infinite reverse forwards;
+}
+
+@keyframes character {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-15px) rotate(-4deg);
+	}
+
+	30% {
+		transform: translateX(10px) rotate(4deg);
+	}
+
+	45% {
+		transform: translateX(-10px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(5px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-5px) rotate(-1.2deg);
+	}
+}
+
+#click{
+  position: absolute;
+  left: 60vw;
+  top: 290vh;
+  animation: click 2s ease 0s infinite normal forwards;
+}
+
+@keyframes click {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
 #portada {
   background-image: url("fondo.jpg");
   background-repeat: no-repeat;
@@ -24,6 +107,52 @@
   filter: contrast(40%);
   filter: brightness(130%);
   filter: saturate(1.5);
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
 }
 
 #portada h1 {
@@ -152,6 +281,7 @@
   filter: brightness(130%);
   filter: saturate(1.5);
   border: 5px dotted var(--corn);
+  animation: shake 2s ease 0s infinite normal forwards;
 }
 
 #asistencia {
@@ -273,6 +403,38 @@ body {
   font-size: 25px;
   line-break: auto;
   padding: 30px;
+}
+
+#regalo{
+  animation: gift 2s ease 10s infinite normal forwards;
+}
+
+@keyframes gift {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
 }
 
 #regalo:active {
