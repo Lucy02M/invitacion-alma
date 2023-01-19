@@ -87,8 +87,31 @@
   background-color: var(--hot-pink);
 }
 
-#fiesta * {
-  color: var(--corn);
+#fiesta *{
+  font-weight: 100;
+  color: var(--hot-pink);
+}
+
+.fiesta{
+  background-color: white;
+  border: 10px dotted var(--corn);
+}
+
+.fiesta p{
+  color: var(--pistachio) !important;
+}
+
+.fiesta h3{
+  font-size: 25px;
+}
+
+#remove{
+  border: none;
+  background-color: var(--permanent-geranium-lake);
+  color: white !important;
+  font-weight: 100;
+  padding: 7px 10px;
+  border-radius: 5px;
 }
 
 #galeria {
