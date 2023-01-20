@@ -61,6 +61,7 @@ function regalar() {
   pedirRegalo.style.display = "flex";
   let clickImg = document.getElementById("click");
   clickImg.style.display = "none";
+  regalo.style.marginLeft = "0em";
 }
 
 //hide gift
