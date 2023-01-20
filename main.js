@@ -71,5 +71,5 @@ function copyText() {
   let cvuNum = document.getElementById("cvu");
   navigator.clipboard.writeText(cvuNum.innerHTML);
   let copyBtn = document.getElementById("copy");
-  copyBtn.style.filter = "opacity(50%)";
+  copyBtn.style.filter = "opacity(30%)";
 }
