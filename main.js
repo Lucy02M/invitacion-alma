@@ -59,6 +59,8 @@ function regalar() {
   let regalo = document.getElementById("regalo");
   let pedirRegalo = document.getElementById("pedirRegalo");
   pedirRegalo.style.display = "flex";
+  let clickImg = document.getElementById("click");
+  clickImg.style.display = "none";
 }
 
 //hide gift
