@@ -1,5 +1,7 @@
+//get event date
 var countDownDate = new Date("Jan 18, 2023 00:00:00").getTime();
 
+//set countdown
 var x = setInterval(function () {
   var now = new Date().getTime();
 
@@ -30,6 +32,7 @@ var x = setInterval(function () {
   }
 }, 1000);
 
+//audio button and toggle
 var myAudio = document.getElementById("myAudio");
 var isPlaying = false;
 
@@ -51,16 +54,19 @@ myAudio.onpause = function () {
   isPlaying = false;
 };
 
+//display gift 
 function regalar() {
   let regalo = document.getElementById("regalo");
   let pedirRegalo = document.getElementById("pedirRegalo");
   pedirRegalo.style.display = "flex";
 }
 
+//hide gift
 function remove() {
   pedirRegalo.style.display = "none";
 }
 
+//copy text button
 function copyText() {
   let cvuNum = document.getElementById("cvu");
   navigator.clipboard.writeText(cvuNum.innerHTML);
