@@ -66,16 +66,18 @@
         <p class="descripcion">Elegante Sport</p>
       </div>
       <div class="fiesta">
-        <img src="media/click-here.png" alt="" width="50" id="click" />
         <h3>Regalos</h3>
         <div class="icono">
-          <img
-            src="media/regalo.png"
-            alt=""
-            width="120"
-            onclick="regalar()"
-            id="regalo"
-          />
+          <div id="gimgDiv">
+            <img
+              src="media/regalo.png"
+              alt=""
+              width="120"
+              onclick="regalar()"
+              id="regalo"
+            />
+            <img src="media/click-here.png" alt="" width="50" id="click" />
+          </div>
           <div id="pedirRegalo">
             <p>CVU: <span id="cvu">00000000658364697193769</span></p>
             <img
@@ -138,10 +140,6 @@
             >Confirmar</a
           ><img src="media/whatsapp.png" width="40" />
         </button>
-        <p id="mensaje">
-          este es un mensaje personalizado la cumpleanera esta muy feliz porque
-          es su cumple
-        </p>
         <div
           id="kitty"
           class="tenor-gif-embed"
@@ -155,6 +153,10 @@
           async
           src="https://tenor.com/embed.js"
         ></script>
+        <p id="mensaje">
+          este es un mensaje personalizado la cumpleanera esta muy feliz porque
+          es su cumple
+        </p>
         <div
           id="melody"
           class="tenor-gif-embed"
