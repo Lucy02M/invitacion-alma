@@ -91,6 +91,8 @@
   filter: contrast(40%);
   filter: brightness(130%);
   filter: saturate(1.5);
+  width: 15rem;
+  height: 15rem;
 }
 
 #portada h1 {
@@ -195,9 +197,9 @@
 
 .fiesta {
   background-color: rgba(255, 255, 255, 0.747);
-  padding: 1em;
+  padding: 0.3em;
   border-radius: 20%;
-  margin-top: 2vh;
+  margin-top:1vh;
 }
 
 .fiesta p {
