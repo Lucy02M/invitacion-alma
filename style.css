@@ -463,7 +463,40 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .section
+  { display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("media/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .content{
+    width: 50vw;
+    padding: 2em;
+    border-radius: 5em;
+  }
 
+  #portada .content{
+    background:var(--pistachio);
+  }
+
+  #direccion .content{
+    background:var(--corn);
+  }
+
+  #galeria .content{
+    background:var(--pistachio);
+  }
+
+  #fiesta .content{
+    background: var(--hot-pink);
+  }
+
+  #asistencia .content{
+    background: var(--corn);
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
