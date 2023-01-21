@@ -420,12 +420,6 @@
   margin-top: -5em;
 }
 
-#kitty {
-}
-
-#melody {
-}
-
 #mensaje {
   margin-top: -4em;
   padding: 2em;
@@ -470,13 +464,19 @@ body {
     background: url("media/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    overflow: hidden;
   }
   .content{
     width: 50vw;
-    padding: 2em;
+    padding: 3vw 5vw;
     border-radius: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
+
 
   #portada .content{
     background:var(--pistachio);
@@ -496,6 +496,63 @@ body {
 
   #asistencia .content{
     background: var(--corn);
+  }
+
+  #demo {
+    width: 25vw;
+  }
+
+  #audioDiv{
+    align-self: flex-start;
+  }
+
+  .fiesta{
+    width: 25vw;
+    padding: 2vw;
+  }
+
+  .tenor-gif-embed {
+    transform: scale(1);
+    border-radius: 50%;
+    margin-top: 5vh;
+  }
+
+  #kitty {
+    height: 20vh;
+  }
+  
+  #melody {
+    height: 28vh;
+    margin-top: 0vh;
+  }
+
+  #mensaje{
+    margin-top: 8vh;
+    margin-bottom: 0;
+  }
+
+  #portada h1{
+    font-size: 3em;
+  }
+
+  #portada h2{
+    font-size: 2em;
+  }
+
+  #direccion p {
+    font-size: 2em;
+  }
+
+  .fiesta h3{
+    font-size: 2em;
+  }
+
+  .fiesta p{
+    font-size: 1.5em;
+  }
+
+  .content h2{
+    font-size: 2.5em;
   }
 }
 
